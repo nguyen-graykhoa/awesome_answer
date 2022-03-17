@@ -1,0 +1,20 @@
+<% if @user.errors.any? %>
+    <p><%= @user.errors.full_messages.join(', ') %> </p>
+<% end %>
+
+<h1>Sign up</h1>
+<%= form_with model: @user do |f|%>
+   <div> 
+      <%= f.label :first_name %>
+      <%= f.text_field :first_name %>
+   </div>
+      <div> 
+      <%= f.label :last_name %>
+      <%= f.text_field :last_name %>
+   </div>
+   <div> 
+      <%= f.label :password %>
+      <%= f.text_field :password %>
+   </div>
+   <%= f.submit "Sign up" %>
+<% end %>
