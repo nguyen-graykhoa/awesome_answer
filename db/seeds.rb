@@ -72,11 +72,11 @@ end
 questions = Question.all
 answers = Answer.all
 
-puts Cowsay.say("Generated #{questions.count} questions", :frogs)
-puts Cowsay.say("Generated #{answers.count} answers", :cow)
-puts Cowsay.say("Generated #{users.count} users", :koala)
-puts Cowsay.say("Generated #{Like.count} likes", :dragon)
-puts Cowsay.say("Generated #{Tag.count} tags", :bunny)
+# puts Cowsay.say("Generated #{questions.count} questions", :frogs)
+# puts Cowsay.say("Generated #{answers.count} answers", :cow)
+# puts Cowsay.say("Generated #{users.count} users", :koala)
+# puts Cowsay.say("Generated #{Like.count} likes", :dragon)
+# puts Cowsay.say("Generated #{Tag.count} tags", :bunny)
 
 #To run this file use command: rails db:seed
 

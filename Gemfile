@@ -53,6 +53,7 @@ gem 'pry-rails', '~> 0.3.9'
 gem 'cancancan'
 
 gem 'faker'
+#gem 'cowsay', '~> 0.3.0'
 
 gem 'bootstrap', '~> 5.1', '>= 5.1.3'
 
@@ -75,7 +76,7 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
-  gem 'cowsay', '~> 0.3.0'
+  #gem 'cowsay', '~> 0.3.0'
    
   
 end
